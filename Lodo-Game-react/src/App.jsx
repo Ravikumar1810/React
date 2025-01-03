@@ -4,13 +4,15 @@
 import './App.css';
 import Lodoboard from './LodoBoard';
 import TodoList from './TodoList';
+import Lottery from './Lottery';
+import Ticket from './Ticket';
 
 function App() {
   
 
   return (
     <>  
-    <TodoList />
+    <Lottery n={3} winningSum={15} />
     </>
   )
 }
